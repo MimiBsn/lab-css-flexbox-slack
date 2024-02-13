@@ -12,15 +12,15 @@
   <!-- link your styles -->
   <link rel="stylesheet" href="./stylesheets/style.css" />
 
-  <link rel="icon" type="image/x-icon" href="./images/slack-icon.png">
+  <link rel="icon"  type="image/x-icon" href="./images/slack-icon.png">
   <title>Slack is your digital HQ | Slack</title>
 </head>
 
 <body>
   <!-- NAVBAR -->
   <nav>
-    <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+    <div id="navbar">
+      <img src="./images/slack-logo.png" class="logo" alt="Slack logo" />
 
       <ul>
         <li>
@@ -66,27 +66,28 @@
 
       <p>Slack is free to try for as long as you'd like.</p>
 
-      <div>
+      <div id="sign-in">
         <button>Sign up with email</button>
 
-        <button>
+        <button id="google-button">
           <img src="./images/logo-google.png" alt="Google logo" />
           <span>Sign up with Google</span>
+          <div> </div>
         </button>
       </div>
 
     </div>
 
     <div>
-      <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
+      <img src="./images/hero-product-ui.png" id="slack-screenshot" alt="Slack app screenshot" />
     </div>
   </header>
 
   <main>
-    <section>
+    <section class="companies-logo">
       <p>Trusted by companies all over the world</p>
 
-      <div>
+      <div class="caroussel">
         <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
         <img src="./images/logo-nasa.png" alt="NASA logo" />
         <img src="./images/logo-uber.png" alt="Uber logo" />
